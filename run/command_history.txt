@@ -1,0 +1,10 @@
+/gamerule randomTickSpeed 100
+/gamerule randomTickSpeed 1
+/gamerule randomTickSpeed 1000
+/gamerule randomTickSpeed 3
+/guessthenumber timer 10
+/guessthenumber guesstime 60
+/guessthenumber timer 10
+/guessthenumber prize minecraft:emerald 10
+/guessthenumber timer 300
+/guessthenumber prize minecraft:diamond 10

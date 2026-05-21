@@ -1,0 +1,6 @@
+{
+  "message.guessthenumber.prefix": "[Вікторина]",
+  "message.guessthenumber.start": "Вгадайте число від 1 до 100! У вас є 1 хвилина. Перший, хто вгадає, отримає %s %s!",
+  "message.guessthenumber.win": "Гравець %s правильно вгадав число %s та отримав %s %s!",
+  "message.guessthenumber.timeout": "Час вийшов! Ніхто не вгадав число. Загадане число було: %s"
+}
