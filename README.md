@@ -1,9 +1,21 @@
-# Guess The Number
+### A server-side and client chat quiz mod
+![Quiz messages](https://cdn.modrinth.com/data/cached_images/446929b9784b1ebeefefa0e32ba33e8b96fe9527.png)
+Every 5 minutes, players are challenged to guess a random number between 1 and 100 within a set time limit. The first player to guess correctly wins a valuable prize.
 
-## Setup
+The mod supports in-game configuration of timers and prizes via admin commands.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+The mod automatically adapts to the player's client language if installed on client (English, Russian, Ukranian and Spanish)
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+### Commands
+sets time between each quiz:
+```
+/guessthenumber timer [seconds]
+``` 
+sets time for guess:
+```
+/guessthenumber guesstime [seconds]
+```
+sets a prize item and its quantity:
+```
+/guessthenumber prize [minecraft:item] [<count>]
+```
