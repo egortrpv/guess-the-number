@@ -1,0 +1,20 @@
+name: GuessTheNumber
+version: 1.0.0
+main: guessthenumber.guessthenumber
+api-version: '1.20'
+description: Every 5 minutes, players are challenged to guess a random number between 1 and 100 within a set time limit. The first player to guess correctly wins a valuable prize.
+
+commands:
+  guessthenumber:
+    description: |
+      Configure Guess The Number quiz:
+      - sets time between each quiz: /guessthenumber timer [seconds]
+      - sets time for guess: /guessthenumber guesstime [seconds]
+      - sets a prize item and its quantity: /guessthenumber prize [minecraft:item] [<count>]
+    usage: /guessthenumber <timer|guesstime|prize> ...
+    permission: guessthenumber.admin
+
+permissions:
+  guessthenumber.admin:
+    description: Allows configuring Guess The Number settings
+    default: op

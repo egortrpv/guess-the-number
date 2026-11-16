@@ -1,0 +1,4 @@
+quizIntervalTicks: 6000
+quizDurationTicks: 1200
+prizeItem: DIAMOND
+prizeAmount: 10
