@@ -1,0 +1,6 @@
+{
+  "message.guessthenumber.prefix": "[Trivia]",
+  "message.guessthenumber.start": "¡Adivina un número del 1 al 100! ¡Tienes 1 minuto! ¡El primero en adivinar recibirá %s %s!",
+  "message.guessthenumber.win": "¡El jugador %s ha adivinado correctamente el número %s y ha recibido %s %s!",
+  "message.guessthenumber.timeout": "¡Tiempo agotado! Nadie adivinó el número. El número era: %s"
+}
