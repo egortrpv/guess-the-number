@@ -1,0 +1,6 @@
+{
+  "message.guessthenumber.prefix": "[Quiz]",
+  "message.guessthenumber.start": "Guess a number between 1 and 100! You have 1 minute. The first to guess gets %s %s!",
+  "message.guessthenumber.win": "Player %s correctly guessed the number %s and won %s %s!",
+  "message.guessthenumber.timeout": "Time's up! Nobody guessed the number. The number was: %s"
+}
