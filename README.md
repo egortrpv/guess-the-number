@@ -2,7 +2,7 @@
 ![Quiz messages](https://cdn.modrinth.com/data/cached_images/446929b9784b1ebeefefa0e32ba33e8b96fe9527.png)
 Every 5 minutes, players are challenged to guess a random number between 1 and 100 within a set time limit. The first player to guess correctly wins a valuable prize.
 
-The plugin supports in-game configuration of timers and prizes via admin commands or config.yml file in plugins/GuessTheNumber.
+The plugin supports in-game configuration of timers and prizes via admin commands or the `config.yml` file in `plugins/GuessTheNumber/`.
 
 ### Commands
 sets time between each quiz:
