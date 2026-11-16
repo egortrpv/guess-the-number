@@ -1,25 +1,21 @@
+### A server-side and client chat quiz mod
+![Quiz messages](https://cdn.modrinth.com/data/cached_images/446929b9784b1ebeefefa0e32ba33e8b96fe9527.png)
+Every 5 minutes, players are challenged to guess a random number between 1 and 100 within a set time limit. The first player to guess correctly wins a valuable prize.
 
-Installation information
-=======
+The mod supports in-game configuration of timers and prizes via admin commands.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+The mod automatically adapts to the player's client language if installed on client (English, Russian, Ukranian and Spanish)
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+### Commands
+sets time between each quiz:
+```
+/guessthenumber timer [seconds]
+``` 
+sets time for guess:
+```
+/guessthenumber guesstime [seconds]
+```
+sets a prize item and its quantity:
+```
+/guessthenumber prize [minecraft:item] [<count>]
+```
